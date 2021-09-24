@@ -58,11 +58,15 @@
         </dependency>
 <!--        HIBERNATE DEPENDENCY-->
         <dependency>
-            <groupId>org.hibernate</groupId>
-            <artifactId>hibernate-core</artifactId>
-            <version>5.5.7.Final</version>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-starter-data-jpa</artifactId>
         </dependency>
-<!--        SPRING BOOT DEPENDENCIES-->
+<!--        <dependency>-->
+<!--            <groupId>org.hibernate</groupId>-->
+<!--            <artifactId>hibernate-core</artifactId>-->
+<!--            <version>5.5.7.Final</version>-->
+<!--        </dependency>-->
+<!--        SPRING BOOT DEPENDENCIES     Should I use both of them?? -->
         <dependency>
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-starter-web</artifactId>

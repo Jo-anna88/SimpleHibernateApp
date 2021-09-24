@@ -11,7 +11,7 @@ public class Book {
     private String author;
     //na poziomie Javy chcemy, żeby Book posiadała Reader'a
     //na poziomie relacyjnej BD musimy określić, że mamy Book i ona wskazuje na n-ty wiersz w tabeli Reader (konkretnego czytelnika)
-    @OneToOne
+    @OneToOne //Wskazujemy aby encja Book wskazywała na inną encję Reader
     private Reader reader;
 
     public Book(String title, String author, Reader reader) {
